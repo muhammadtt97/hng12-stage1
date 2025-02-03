@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #2c2c2c;
 }
 
 .app {
@@ -24,14 +24,14 @@ body {
 .game-container {
   width: 100%;
   padding: 20px;
-  background-color: white;
+  background-color: #333;
   border-radius: 15px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   animation: fadeIn 0.5s ease;
 }
 
 h1 {
-  color: #333;
+  color: #ffff;
   margin-bottom: 20px;
   animation: bounce 1s ease;
 }
@@ -110,7 +110,7 @@ h1 {
 .score {
   font-size: 1.5em;
   font-weight: bold;
-  color: #333;
+  color: #ffff;
   animation: slideIn 0.5s ease;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
